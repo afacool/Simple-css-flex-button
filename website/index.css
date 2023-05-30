@@ -1,0 +1,56 @@
+button {
+    position: relative;
+    top: 15px;
+    width: 25vh;
+    height: 95.5vh;
+    padding: 9px 25px;
+    background-image: url(paris.jpg);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 1s ease 0s;
+}
+
+.btntxt{
+    text-align: center;
+}
+.btn {
+    
+ position: center;
+ 
+}
+
+
+button:hover {
+    width: 200vh;
+    height: 99.5vh;
+    transform: scale(0.85);
+}
+
+button:active {
+    background-image: url(france.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    size: 1px;
+    transition: all 0.3s ease 0s;
+}
+
+h1:hover{
+    size: 150px;
+}
+
+
+body {
+    background-color: black;
+}
